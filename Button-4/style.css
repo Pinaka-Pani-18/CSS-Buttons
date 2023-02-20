@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin: auto;
+  width: 900px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: small;
+  text-align: justify;
+}
+
+.btn {
+  margin: 10px 0;
+  padding: 5px 15px;
+  font-weight: bold;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
