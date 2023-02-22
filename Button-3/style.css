@@ -24,6 +24,7 @@ body {
   overflow: hidden;
   position: absolute;
   transition: all 0.7s ease-in-out;
+  cursor: pointer;
 }
 
 .btn:hover {
