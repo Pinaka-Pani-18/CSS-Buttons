@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -12,18 +12,18 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: yellow;
 }
 
 .btn {
-  background-color: skyblue;
   outline: none;
   font-weight: bold;
   font-size: larger;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   color: black;
-  padding: 10px 20px;
+  padding: 10px 30px;
   position: relative;
-  border-radius: 5px;
-  overflow: hidden;
   cursor: pointer;
 }
 
@@ -36,14 +36,17 @@ body {
   top: 0;
   left: 0;
   box-sizing: border-box;
+  transition: all 1s ease-in-out;
+  border-right: none;
+  border-bottom: none;
 }
 .btn:hover::before {
   width: 100%;
   height: 100%;
-  border-color: darkblue;
+  border-color: black;
   border-right: none;
   border-bottom: none;
-  transition: all 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .btn::after {
@@ -55,12 +58,15 @@ body {
   bottom: 0;
   right: 0;
   box-sizing: border-box;
+  border-left: none;
+  border-top: none;
+  transition: all 1s ease-in-out;
 }
 .btn:hover::after {
-  border-color: darkblue;
+  border-color: black;
   width: 100%;
   height: 100%;
   border-left: none;
   border-top: none;
-  transition: all 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
 }
