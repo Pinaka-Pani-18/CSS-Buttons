@@ -22,6 +22,7 @@ button {
   border-radius: 25%;
   background-color: transparent;
   position: relative;
+  cursor: pointer;
 
   /* New Method : To center a button */
   /* position: absolute;

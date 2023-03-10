@@ -34,7 +34,7 @@ button:hover {
   transition: all 1s ease-in-out;
 }
 
-.btn::before {
+button::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -48,7 +48,7 @@ button:hover {
   transition: all 1s ease-in-out;
 }
 
-.btn:hover::before {
+button:hover::before {
   width: 100%;
   transition: all 1s ease-in-out;
 }
