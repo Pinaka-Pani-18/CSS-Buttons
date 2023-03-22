@@ -34,11 +34,11 @@ button {
 }
 
 .btn1:hover {
-  box-shadow: inset 120px 0 0 0 blueviolet, inset -120px 0 0 0 blueviolet;
+  box-shadow: 10px 10px 0 violet;
 }
 
 .btn2:hover {
-  box-shadow: 10px 10px 0 violet;
+  box-shadow: inset 120px 0 0 0 blueviolet, inset -120px 0 0 0 blueviolet;
 }
 
 .btn3:hover {
