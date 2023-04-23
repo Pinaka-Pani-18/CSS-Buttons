@@ -23,14 +23,6 @@ button {
   background-color: transparent;
   position: relative;
   cursor: pointer;
-
-  /* New Method : To center a button */
-  /* position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; */
 }
 
 button::before,
